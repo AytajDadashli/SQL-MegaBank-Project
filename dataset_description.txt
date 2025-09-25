@@ -1,0 +1,55 @@
+Dataset izahı:
+
+1. Texas.csv
+   - transaction_id : Tranzaksiya ID-si
+   - transaction_start_datetime : Tranzaksiyanın başlama tarixi və vaxtı
+   - transaction_end_datetime : Tranzaksiyanın bitmə tarixi və vaxtı
+   - cardholder_id : Müştəri ID-si
+   - location_id : ATM ID
+   - transaction_type_id : Tranzaksiya növü ID
+   - transaction_amount : Tranzaksiya məbləği
+
+2. Dim_customers.csv
+   - cardholder_id : Müştəri ID-si
+   - first_name : Müştərinin adı
+   - last_name : Müştərinin soyadı
+   - gender : Cins
+   - ATMID : Əsas istifadə etdiyi ATM
+   - birthdate : Doğum tarixi
+   - occupation : Peşə
+   - account_type : Hesab tipi
+   - isMegabank : Yerli (1) / Qeyri-yerli (0)
+
+3. Dim_transaction_type.csv
+   - transactionTypeID : Tranzaksiya növü ID
+   - transactionTypeName : Tranzaksiya növü adı (məsələn, nəğd çıxarış, balans sorğusu)
+
+
+---
+Dataset Description:
+
+1. Texas.csv
+   - transaction_id : Transaction ID
+   - transaction_start_datetime : Start date and time of the transaction
+   - transaction_end_datetime : End date and time of the transaction
+   - cardholder_id : Customer ID
+   - location_id : ATM ID
+   - transaction_type_id : Transaction type ID
+   - transaction_amount : Transaction amount
+
+2. Dim_customers.csv
+   - cardholder_id : Customer ID
+   - first_name : Customer's first name
+   - last_name : Customer's last name
+   - gender : Gender
+   - ATMID : Primary ATM used
+   - birthdate : Date of birth
+   - occupation : Occupation
+   - account_type : Account type
+   - isMegabank : Local (1) / Non-local (0)
+
+3. Dim_transaction_type.csv
+   - transactionTypeID : Transaction type ID
+   - transactionTypeName : Transaction type name (e.g., cash withdrawal, balance inquiry)
+
+
