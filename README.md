@@ -31,12 +31,6 @@ Layihədəki SQL sorğuları aşağıdakıları əhatə edir:
 14. **Həftəlik Tranzaksiyalar**: Hər müştərinin həftəlik tranzaksiya sayı və ortalama məbləği.
 15. **Ən Yüksək və İkinci Yüksək Tranzaksiya Fərqi**: İki və daha çox tranzaksiya edən müştərilər üçün fərq.
 
-## Necə istifadə etmək olar
-
-1. CSV dataset fayllarını `datasets/` qovluğuna qoyun.  
-2. `layihe_sql.sql` faylını SQL mühitində açın və sorğuları işlədin.  
-3. Nəticələri müştəri davranışı və ATM tranzaksiya tendensiyaları üçün analiz edin.
-
 ---
 # SQL ATM Transactions Project
 
@@ -71,8 +65,3 @@ The SQL queries included in this project cover:
 14. **Weekly Transactions per Customer**: Weekly transaction count and average amount.
 15. **Difference Between Highest and Second Highest Transaction**: For customers with at least two transactions.
 
-## How to Use
-
-1. Place the CSV datasets in the `datasets/` folder.  
-2. Open `layihe_sql.sql` in your SQL environment and execute queries.  
-3. Review results for insights on customer behavior and ATM transaction trends.
